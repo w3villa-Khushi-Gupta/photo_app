@@ -1,3 +1,5 @@
+# require 'rmagick'
+
 class ImagesController < ApplicationController
   before_action :set_image, only: %i[ show edit update destroy ]
 
